@@ -1,0 +1,64 @@
+.header {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 55px;
+	border-bottom: 1px solid rgb(46, 47, 48);
+	padding: 0 50px;
+}
+
+.header-logo {
+	font: 400 20px 'Georgia', 'Arial', 'Helvetica', sans-serif;
+	color: rgb(0, 0, 0);	
+}
+
+.header-nav {
+	width: 900px;
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+.nav--active {
+	color: rgb(255, 0, 0);
+}
+
+.header-nav-tab {
+	font: 400 20px 'Georgia', 'Arial', 'Helvetica', sans-serif;
+	text-decoration: none;
+	transition: text-shadow 0.5s linear;
+}
+
+.header-nav-tab:hover {
+	text-shadow: 0 0 10px rgb(143, 143, 143);
+	border-bottom: 1px solid rgb(143, 143, 143);
+}
+
+.inputSearch {
+	border: 1px solid rgb(117, 117, 117);
+	border-right: none;
+	border-radius: 3px 0 0 3px;
+	width: 400px;
+	vertical-align: middle;
+	height: 30px;
+	color: rgb(65, 65, 65);
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+.btnSearch {
+	min-width: 90px;
+	height: 30px;
+	border: none;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.btnAllList {
+	min-width: 90px;
+	height: 30px;
+	border: none;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-left: 5px;
+}

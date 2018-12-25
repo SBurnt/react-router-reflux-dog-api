@@ -1,0 +1,32 @@
+.startInfo {
+	font: 700 25px/1.2 'Georgia', 'Arial', 'Helvetica', sans-serif;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.dogListAllMini {
+	margin-top: 16px;
+	max-width: 30%;
+	max-height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	overflow: auto;
+	/* border: 2px solid rgb(154, 205, 50); */
+}
+
+.li-block {
+	/* width: 250px; */
+	/* margin: 10px; */
+}
+
+.dog-name {
+	font: 500 25px/1.2 'Georgia', 'Arial', 'Helvetica', sans-serif;
+	cursor: pointer;
+}
+
+.dog-name:hover {
+color: rgb(255, 0, 0);
+}

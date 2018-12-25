@@ -1,0 +1,41 @@
+.startInfo {
+	max-width: 70%;
+	font: 700 25px/1.2 'Georgia', 'Arial', 'Helvetica', sans-serif;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.dogSearchMini-title {
+	font: 700 25px/1.2 'Georgia', 'Arial', 'Helvetica', sans-serif;
+	text-align: center;
+}
+
+.dogSearchMini {
+	margin: 0 auto;
+	max-width: 70%;
+	margin-top: 16px;
+}
+
+.dogSearchMini-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 16px;
+}
+
+.dogSearchMiniItem {
+	margin-top: 20px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.img-block {
+	width: 250px;
+	margin: 10px;
+}
+
+img {
+	height: 150px;
+}
