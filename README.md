@@ -3,4 +3,4 @@
 - Run `npm i` in command line
 - Run `npm start` in command line
 
-https://sburnt-dog-api.netlify.com/
+[Посмотреть работу](https://sburnt-dog-api.netlify.com/)
